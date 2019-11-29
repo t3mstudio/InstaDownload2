@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "245039609372",
+    "firebase_url": "https://instagram1-d7880.firebaseio.com",
+    "project_id": "instagram1-d7880",
+    "storage_bucket": "instagram1-d7880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245039609372:android:b673bba80acdbbb2f7d1d9",
+        "android_client_info": {
+          "package_name": "com.videodownloadertool.instadownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245039609372-0s0dbnucihjt1jf76sacflluoq5h2ejd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUClvdRCFwJlb1tiBOtU1u_NKKB4rAlFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245039609372-0s0dbnucihjt1jf76sacflluoq5h2ejd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

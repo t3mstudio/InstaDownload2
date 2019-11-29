@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">All Video Downloader</string>
+    <string name="instagram_downloader">Instagram Downloader Pro</string>
+    <string name="save">Save</string>
+    <string name="submit_url">How To Use</string>
+    <string name="hint">URL</string>
+    <string name="copy">Copy</string>
+    <string name="repost">Repost</string>
+    <string name="paste">Paste</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="page_number">%1$d/%2$d</string>
+    <string name="settings">Settings</string>
+    <string name="dl_youtube">Download Youtube</string>
+    <string name="dl_insta">Download Instagram</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="restart_take_effect">Restart app to take effect</string>
+    <string name="grant_permission">Please grant permission to continue.</string>
+
+    <string name="title_error_connection">Internet Connection</string>
+    <string name="message_error_connection">Please check internet connection and try again!</string>
+
+    <!-- Strings related to Settings -->
+    <string name="ask_yt">Do you want to download Youtube video?</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!--    <string name="storage_insta">/Download/InstagramDownloaderPro/insta/</string>-->
+    <string name="save_download">file:/storage/emulated/0/Download/InstagramDownloader/</string>
+    <string name="storage_youtube">/Download/InstagramDownloader/</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="youtube">Search Youtube videos</string>
+    <string name="youtube_file">Youtube file</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_file">Instagram file</string>
+    <string name="download_folder">YouTube files</string>
+    <string name="feedback_summary">we appreciate your feedback and suggestions</string>
+    <string name="about_summary">Version 1.0</string>
+    <string name="premium">Premium version</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="rate_5_stars">I am a programmer working very hard to give you the best free application.
+    Your 5-star review is worth more than all money. Please write a nice review in Google Play to encourage me!</string>
+    <string name="download_remain">Video download remaining: %1$d</string>
+    <string name="upgrade_premium">Premium version</string>
+    <string name="get_unlimited">Get unlimited download?</string>
+    <string name="message_dialog_purchase">With premium version, you can download unlimited HD videos and remove Ads.</string>
+    <string name="message_dialog_purchase2">Upgrade premium version to remove Ads.</string>
+    <string name="title_dialog_purchase">Upgrade premium version</string>
+
+    <string name="open_insta">Open Instagram</string>
+    <string name="msg_open_insta">Do you want to open Instagram?</string>
+    <string name="download_5">+5 HD video download</string>
+    <string name="download_10">+10 HD video download</string>
+    <string name="download_unlimit">Unlimited download &amp; No ads </string>
+    <string name="no_download">You have 0 download remaining, please purchase to get more download time.</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value" />
+
+
+    <!--    newpie-->
+    <string name="msg_running">File Downloading</string>
+    <string name="msg_running_detail">Tap for details</string>
+    <string name="no_available_dir">Please define a download folder later in settings</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_finished">Download finished</string>
+    <string name="download_finished_more">%s downloads finished</string>
+    <string name="file_name_empty_error">Filename cannot be empty</string>
+    <string name="msg_popup_permission">This permission is needed to\nopen in popup mode</string>
+    <string name="caption_auto_generated">Auto-generated</string>
+    <string name="unknown_content">[Unknown]</string>
+    <string name="general_error">Error</string>
+    <string name="download_dialog_title">Download</string>
+    <string name="no_streams_available_download">No streams available to download</string>
+    <!-- dialog about existing downloads -->
+    <string name="overwrite">Overwrite</string>
+    <string name="overwrite_unrelated_warning">A file with this name already exists</string>
+    <string name="overwrite_finished_warning">A downloaded file with this name already exists</string>
+    <string name="overwrite_failed">cannot overwrite the file</string>
+    <string name="download_already_running">There is a download in progress with this name</string>
+    <string name="download_already_pending">There is a pending download with this name</string>
+    <string name="generate_unique_name">Generate unique name</string>
+    <string name="cancel">Cancel</string>
+    <!-- message dialog about download error -->
+    <string name="error_file_creation">The file can not be created</string>
+    <string name="error_path_creation">The destination folder can not be created</string>
+    <string name="permission_denied">Action denied by the system</string>
+    <string name="downloads_title">Downloads Youtube</string>
+    <string name="clear_finished_download">Clear finished downloads</string>
+    <string name="confirm_prompt">Are you sure?</string>
+    <string name="missions_header_finished">Finished</string>
+    <string name="missions_header_pending">Pending</string>
+    <string name="missing_file">File moved or deleted</string>
+    <string name="toast_no_player">No app installed to play this file</string>
+    <string name="paused">paused</string>
+    <string name="queued">queued</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="post_processing">post-processing</string>
+    <string name="file_deleted">File deleted</string>
+    <string name="undo">Undo</string>
+    <string name="start">Start</string>
+    <string name="retry">Retry</string>
+    <string name="delete">Delete</string>
+    <string name="show_error">Show error</string>
+    <string name="link_error">Unknow error!Try again later!</string>
+    <string name="share">Share to friends</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">App version</string>
+
+    <string name="notification_channel_id" translatable="false">newpipe</string>
+    <string name="downloads_storage_ask" translatable="false">downloads_storage_ask</string>
+    <string name="downloads_maximum_retry" translatable="false">downloads_max_retry</string>
+    <string name="downloads_maximum_retry_default" translatable="false">3</string>
+    <string name="downloads_cross_network" translatable="false">cross_network_downloads</string>
+    <string name="downloads_queue_limit" translatable="false">downloads_queue_limit</string>
+    <string name="download_path_video_key" translatable="false">download_path</string>
+    <string name="download_path_audio_key" translatable="false">download_path_audio</string>
+    <string name="default_download_threads" translatable="false">default_download_threads</string>
+
+    <!-- FileName Downloads  -->
+    <string name="settings_file_charset_key" translatable="false">file_rename_charset</string>
+    <string name="settings_file_replacement_character_key" translatable="false">file_replacement_character</string>
+    <string name="settings_file_replacement_character_default_value" translatable="false">_</string>
+    <string name="charset_letters_and_digits_value" translatable="false">CHARSET_LETTERS_AND_DIGITS</string>
+    <string name="charset_most_special_value" translatable="false">CHARSET_MOST_SPECIAL</string>
+    <string name="default_file_charset_value" translatable="false">@string/charset_most_special_value</string>
+
+    <string name="app_update_notification_channel_id" translatable="false">newpipeAppUpdate</string>
+    <string name="app_update_notification_channel_name">App Update Notification</string>
+    <string name="app_update_notification_channel_description">Notifications for new App version</string>
+
+    <string name="notification_channel_name">Download Notification</string>
+    <string name="notification_channel_description">Notifications for App background and popup players</string>
+
+    <!-- Limit mobile data usage  -->
+    <string name="limit_mobile_data_usage_key" translatable="false">limit_mobile_data_usage</string>
+    <string name="limit_data_usage_none_key" translatable="false">limit_data_usage_none</string>
+
+    <string name="video_mp4_key" translatable="false">video_mp4</string>
+    <string name="video_webm_key" translatable="false">video_webm</string>
+    <string name="video_3gp_key" translatable="false">video_3gp</string>
+    <string name="audio_m4a_key" translatable="false">audio_m4a</string>
+    <string name="audio_webm_key" translatable="false">audio_webm</string>
+    <string name="default_audio_format_key" translatable="false">default_audio_format</string>
+    <string name="default_audio_format_value" translatable="false">@string/audio_m4a_key</string>
+    <string name="show_higher_resolutions_key" translatable="false">show_higher_resolutions</string>
+    <string name="default_video_format_key" translatable="false">default_video_format</string>
+    <string name="default_video_format_value" translatable="false">@string/video_mp4_key</string>
+    <string name="best_resolution_key" translatable="false">best_resolution</string>
+    <string name="default_resolution_key" translatable="false">default_resolution</string>
+    <string name="default_resolution_value" translatable="false">360p</string>
+    <string name="reward_video_unavailable">Try again later!</string>
+    <string name="purchase">Purchase</string>
+    <string name="trial">trial</string>
+
+
+    //Download plan dialog
+    <string name="title_dl_plan_dialog">Choose plan to download</string>
+    <string name="dl_low_quality_audio">Download low quality audio (m4a)</string>
+    <string name="dl_low_quality_video">Download low quality video (mp4, 360p)</string>
+    <string name="dl_high_quality_video_audio">Download high quality video &amp; audio (full option)</string>
+    <string name="no_audio_try_later">No audio available, try again later!</string>
+
+</resources>

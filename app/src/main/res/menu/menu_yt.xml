@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchBar"
+        android:icon="@drawable/ic_action_action_search"
+        android:orderInCategory="100"
+        android:title="@string/youtube"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_add_shopping_cart_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_dl"
+        app:iconTint="@color/white"
+        android:icon="@drawable/ic_file_download_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/youtube_file"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_purchase"
+        android:icon="@drawable/ic_add_shopping_cart_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/premium"
+        app:showAsAction="never" />
+
+</menu>

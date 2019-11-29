@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_free_dl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/padding_40"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding_10"
+        android:paddingEnd="@dimen/padding_10">
+
+        <Button
+            android:id="@+id/btn_dl_audio_free"
+            style="@style/PlanToDownloadButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_bg_gray"
+            android:text="free download" />
+
+        <TextView
+            style="@style/TextPlanDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/btn_dl_audio_free"
+            android:text="@string/dl_low_quality_audio" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_low_quality_dl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/padding_10"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding_10"
+        android:paddingEnd="@dimen/padding_10">
+
+        <Button
+            android:id="@+id/btn_dl_low_quality"
+            style="@style/PlanToDownloadButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_bg"
+            android:text="watch video" />
+
+        <TextView
+            style="@style/TextPlanDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/btn_dl_low_quality"
+            android:text="@string/dl_low_quality_video" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_purchase_dl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/padding_10"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding_10"
+        android:paddingEnd="@dimen/padding_10">
+
+        <Button
+            android:id="@+id/btn_purchase_dl"
+            style="@style/PlanToDownloadButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_bg"
+            android:text="trial" />
+
+        <TextView
+            style="@style/TextPlanDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/btn_purchase_dl"
+            android:text="@string/dl_high_quality_video_audio" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

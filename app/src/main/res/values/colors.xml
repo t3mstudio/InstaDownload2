@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F75E1B</color>
+    <color name="colorPrimaryDark">#F75E1B</color>
+    <color name="colorAccent">#F75E1B</color>
+    <color name="colorAccentDark">#e7135c</color>
+    <color name="accent_yellow">#ffeb3b</color>
+    <color name="accent_amber">#ffc107</color>
+    <color name="accent_orange">#ff9800</color>
+
+
+    <color name="transparent_bg">#55000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#00021d</color>
+    <color name="transparent_bg_dark">#99000000</color>
+
+
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
+    <color name="transparent_black">#60000000</color>
+    <color name="selection_border">#ffffff</color>
+    <color name="playback_indicator">#ffff66</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
+
+    <color name="color_gray">#FFE6E5E5</color>
+    <color name="color_gray_1">#a0a0a0</color>
+    <color name="color_gray_2">#f2f2f2</color>
+    <color name="color_gray_3">#7a7a7a</color>
+
+    <color name="black_55">#8C000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_15">#26000000</color>
+
+    <color name="white_55">#8Cffffff</color>
+    <color name="white_85">#D9ffffff</color>
+    <color name="white_15">#26ffffff</color>
+
+    <color name="color_facebook">#3b5998</color>
+    <color name="color_twitter">#00aced</color>
+    <color name="color_instagram">#bc2a8d</color>
+    <color name="color_dailymotion">#00aaff</color>
+    <color name="color_vimeo">#1ab7ea</color>
+
+    <color name="transparent_gray">#80000000</color>
+    <color name="transparent_white">#dcfafafa</color>
+    <color name="video_progress_color">#b4fe2e2e</color>
+    <color name="grey400transparent">#80bdbdbd</color>
+    <color name="lineDivider">#FFF3F3F3</color>
+
+    <color name="dark_background_color">#222222</color>
+    <color name="black_separator_color">#1effffff</color>
+
+    <color name="dark_youtube_primary_color">#CD322E</color>
+    <color name="dark_youtube_dark_color">#992722</color>
+    <color name="dark_settings_accent_color">#ff5252</color>
+    <color name="bluegray">#607D8B</color>
+
+    <color name="black_settings_accent_color">#555555</color>
+    <color name="background_download_item">#555555</color>
+    <color name="forground_download_item">#000000</color>
+</resources>
