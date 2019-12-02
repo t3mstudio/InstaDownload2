@@ -1,11 +1,13 @@
 package com.videodownloadertool.instadownloader;
 
+import android.app.DownloadManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.ActionBar;
@@ -112,31 +114,29 @@ public class SettingsActivity extends AppCompatActivity {
 
             }
 
-            Preference download_yt = findPreference("download_path");
-//            Preference youtube_folder = findPreference("download_folder");
+            Preference insta_path = findPreference("insta_path");
+            insta_path.setOnPreferenceClickListener(preference -> {
+                startActivity(new Intent(DownloadManager.ACTION_VIEW_DOWNLOADS));
+                return true;
+            });
 
+            Preference download_yt = findPreference("download_path");
             ClientConfig clientConfig = InterstitialUtils.getSharedInstance().getClient();
 
             if (download_yt != null) {
-                if (clientConfig != null || clientConfig.isAccept == 0) {
-                    download_yt.setVisible(false);
-                } else {
+                if (clientConfig != null && clientConfig.isAccept != 0) {
                     download_yt.setVisible(true);
+
+                    download_yt.setOnPreferenceClickListener(preference -> {
+                        startActivity(new Intent(getContext(), DownloadActivity.class));
+                        return true;
+                    });
+                } else {
+                    download_yt.setVisible(false);
                 }
 
                 download_yt.setSummary(Utility.getVideoAudioStoragePath(getActivity()));
             }
-
-//            if (youtube_folder != null) {
-//                if (clientConfig.isAccept == 0) {
-//                    youtube_folder.setVisible(false);
-//
-//                } else {
-//                    youtube_folder.setVisible(true);
-//
-//                }
-//
-//            }
         }
 
         private  void sendFeedback(Context context) {

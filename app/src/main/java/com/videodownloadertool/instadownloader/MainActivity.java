@@ -366,6 +366,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         Intent intent1 = new Intent(MainActivity.this, SettingsActivity.class);
                         editor.putInt("isAccept", clientConfig.isAccept).apply();
                         startActivity(intent1);
+//                        startActivity(new Intent(DownloadManager.ACTION_VIEW_DOWNLOADS));
                         break;
                     case R.id.nav_inapp:
                         upgradePremium();
@@ -615,10 +616,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 request.setAllowedNetworkTypes(
                         DownloadManager.Request.NETWORK_WIFI
                                 | DownloadManager.Request.NETWORK_MOBILE)
-                        .setAllowedOverRoaming(false).setTitle("Instagram Downloader Pro")
+                        .setAllowedOverRoaming(false).setTitle(getString(R.string.app_name))
                         .setDescription("Downloading...")
                         .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS
-                                + "/InstagramDownloader/", filename);
+                                , filename);
                 request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 Objects.requireNonNull(mgr).enqueue(request);
             }
