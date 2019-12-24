@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        }
 
         RateThisApp.onCreate(this);
-        RateThisApp.Config config = new RateThisApp.Config(1, 5);
+        RateThisApp.Config config = new RateThisApp.Config(0, 0);
         config.setMessage(R.string.rate_5_stars);
         RateThisApp.init(config);
 
@@ -364,7 +364,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         break;
                     case R.id.nav_settings:
                         Intent intent1 = new Intent(MainActivity.this, SettingsActivity.class);
-                        editor.putInt("isAccept", clientConfig.isAccept).apply();
+//                        editor.putInt("isAccept", clientConfig.isAccept).apply();
                         startActivity(intent1);
 //                        startActivity(new Intent(DownloadManager.ACTION_VIEW_DOWNLOADS));
                         break;

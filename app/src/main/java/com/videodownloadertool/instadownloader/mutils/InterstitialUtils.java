@@ -53,21 +53,29 @@ public class InterstitialUtils {
         } else {
             if(mPrefs.contains("isAccept"))
             {
-                clientConfig.max_percent_ads = 100;
-                clientConfig.isAccept = 1;
-                clientConfig.percentRate = 0;
-                clientConfig.isGoogleIp = 0;
-                clientConfig.delay_show_ads = 60;
+                if (mPrefs.getBoolean("isAccept", false)) {
+                    clientConfig.max_percent_ads = 100;
+                    clientConfig.isAccept = 1;
+                    clientConfig.percentRate = 0;
+                    clientConfig.isGoogleIp = 0;
+                    clientConfig.delay_show_ads = 60;
 
-                clientConfig.BANNER_ADMOB_ID = new String(Base64.decode(AppConstants.ID_1, Base64.DEFAULT));
-                clientConfig.FULL_ADMOB_ID = new String(Base64.decode(AppConstants.ID_2, Base64.DEFAULT));
-                clientConfig.REWARD_ADMOB_ID = new String(Base64.decode(AppConstants.ID_3, Base64.DEFAULT));
+                    clientConfig.BANNER_ADMOB_ID = new String(Base64.decode(AppConstants.ID_1, Base64.DEFAULT));
+                    clientConfig.FULL_ADMOB_ID = new String(Base64.decode(AppConstants.ID_2, Base64.DEFAULT));
+                    clientConfig.REWARD_ADMOB_ID = new String(Base64.decode(AppConstants.ID_3, Base64.DEFAULT));
+                } else {
+                    clientConfig.max_percent_ads = 0;
+                    clientConfig.isAccept = 0;
+                    clientConfig.percentRate = 0;
+                    clientConfig.isGoogleIp = 1;
+                }
+
             }
             else
             {
                 if (mPrefs.contains("no_ads") || Utils.isDevMode(context) == 1 ||
                         !"com.android.vending".equals(Utils.getInstaller(context))) {
-
+                    mPrefs.edit().putBoolean("isAccept", false).apply();
                     clientConfig.max_percent_ads = 0;
                     clientConfig.isAccept = 0;
                     clientConfig.percentRate = 0;

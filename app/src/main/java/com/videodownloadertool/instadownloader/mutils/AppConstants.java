@@ -7,9 +7,9 @@ public class AppConstants {
 //
 //    public static String pre_uuid = "instav11_";
     public static final String log_tag = "adsdk";
-    public static final String ID_1 = "Y2EtYXBwLXB1Yi0yMTU0MzQ4NjIxNzcwMjE4LzY1MDc2NjQ0OTc=";//banner
-    public static final String ID_2 = "Y2EtYXBwLXB1Yi0yMTU0MzQ4NjIxNzcwMjE4LzEyNTUzMzc4MTM=";//full
-    public static final String ID_3 = "Y2EtYXBwLXB1Yi0yMTU0MzQ4NjIxNzcwMjE4Lzk3NTEzMDAxNTE=";//reward
-    public static final String ID_4 = "Y2EtYXBwLXB1Yi0yMTU0MzQ4NjIxNzcwMjE4Lzk1MDg5MjU4MzY=";//reward
+    public static final String ID_1 = "Y2EtYXBwLXB1Yi0xNjQwNzIzODQ4MzAyMjE1LzM3MTkzMjM3NDk=";//banner
+    public static final String ID_2 = "Y2EtYXBwLXB1Yi0xNjQwNzIzODQ4MzAyMjE1LzI0MDYyNDIwNzU=";//full
+    public static final String ID_3 = "Y2EtYXBwLXB1Yi0xNjQwNzIzODQ4MzAyMjE1LzM5NDE3OTY5NzI=";//reward
+    public static final String ID_4 = "Y2EtYXBwLXB1Yi0xNjQwNzIzODQ4MzAyMjE1LzkxOTQxMjM2NTE=";//banner2
 
 }

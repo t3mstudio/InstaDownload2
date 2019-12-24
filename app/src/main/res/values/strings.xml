@@ -218,8 +218,8 @@
 
     //Download plan dialog
     <string name="title_dl_plan_dialog">Choose plan to download</string>
-    <string name="dl_low_quality_audio">Download low quality audio (m4a)</string>
-    <string name="dl_low_quality_video">Download low quality video (mp4, 360p)</string>
+    <string name="dl_low_quality_audio">Download normal quality audio (m4a)</string>
+    <string name="dl_low_quality_video">Download normal quality video (mp4, 360p)</string>
     <string name="dl_high_quality_video_audio">Download high quality video &amp; audio (full option)</string>
     <string name="no_audio_try_later">No audio available, try again later!</string>
 
