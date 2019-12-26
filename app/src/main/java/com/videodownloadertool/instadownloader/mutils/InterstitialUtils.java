@@ -53,7 +53,17 @@ public class InterstitialUtils {
         } else {
             if(mPrefs.contains("isAccept"))
             {
-                if (mPrefs.getBoolean("isAccept", false)) {
+                boolean isAccept = false;
+                try
+                {
+                    isAccept = mPrefs.getBoolean("isAccept", false);
+                }
+                catch (ClassCastException e)
+                {
+                    isAccept = ( 1 == mPrefs.getInt("isAccept", 0)  );
+                }
+
+                if (isAccept) {
                     clientConfig.max_percent_ads = 100;
                     clientConfig.isAccept = 1;
                     clientConfig.percentRate = 0;
