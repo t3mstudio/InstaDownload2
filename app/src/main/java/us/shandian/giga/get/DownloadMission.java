@@ -188,7 +188,7 @@ public class DownloadMission extends Mission {
     HttpURLConnection openConnection(String url, int threadId, long rangeStart, long rangeEnd) throws IOException {
         HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
         conn.setInstanceFollowRedirects(true);
-        conn.setRequestProperty("User-Agent", Downloader.USER_AGENT);
+        conn.setRequestProperty("User-Agent", DownloaderImpl.USER_AGENT);
         conn.setRequestProperty("Accept", "*/*");
 
         // BUG workaround: switching between networks can freeze the download forever

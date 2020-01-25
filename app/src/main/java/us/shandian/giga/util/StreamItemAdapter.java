@@ -25,6 +25,7 @@ import java.util.concurrent.Callable;
 import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
+import us.shandian.giga.get.DownloaderImpl;
 
 /**
  * A list adapter for a list of {@link Stream streams},
@@ -181,7 +182,7 @@ public class StreamItemAdapter<T extends Stream, U extends Stream> extends BaseA
                         continue;
                     }
 
-                    final long contentLength = Downloader.getInstance().getContentLength(stream.getUrl());
+                    final long contentLength = DownloaderImpl.getInstance().getContentLength(stream.getUrl());
                     streamsWrapper.setSize(stream, contentLength);
                     hasChanged = true;
                 }

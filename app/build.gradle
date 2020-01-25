@@ -85,7 +85,7 @@ dependencies {
 //    implementation 'org.nibor.autolink:autolink:0.8.0'
 
     // new version
-    implementation 'com.github.teamnewpipe:NewPipeExtractor:v0.17.4'
+    implementation 'com.github.teamnewpipe:NewPipeExtractor:v0.18.2'
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
 }
 

@@ -20,7 +20,7 @@ import com.videodownloadertool.instadownloader.R;
 import com.videodownloadertool.instadownloader.mutils.AppConstants;
 
 import org.schabi.newpipe.extractor.NewPipe;
-import org.schabi.newpipe.extractor.utils.Localization;
+import org.schabi.newpipe.extractor.localization.Localization;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -45,6 +45,7 @@ import io.reactivex.exceptions.OnErrorNotImplementedException;
 import io.reactivex.exceptions.UndeliverableException;
 import io.reactivex.functions.Consumer;
 import io.reactivex.plugins.RxJavaPlugins;
+import us.shandian.giga.get.DownloaderImpl;
 import us.shandian.giga.io.StoredFileHelper;
 import us.shandian.giga.streams.io.SharpStream;
 
@@ -60,8 +61,7 @@ public class Utility {
             //noinspection deprecation
             locale = context.getResources().getConfiguration().locale;
         }
-        NewPipe.init(getDownloader(),
-                new Localization(locale.getCountry(), locale.getLanguage()));
+        NewPipe.init(getDownloader(), new Localization(locale.getCountry(), locale.getLanguage()));
 
         initStorageVideo(context);
         initStorageAudio(context);
@@ -162,8 +162,8 @@ public class Utility {
         return new File(Environment.getExternalStorageDirectory(), defaultDirectoryName);
     }
 
-    private static org.schabi.newpipe.extractor.Downloader getDownloader() {
-        return us.shandian.giga.util.Downloader.init(null);
+    private static DownloaderImpl getDownloader() {
+        return DownloaderImpl.init(null);
     }
 
     private static void initNotificationChannel(Context context) {
