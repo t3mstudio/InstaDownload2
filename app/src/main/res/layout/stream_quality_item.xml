@@ -12,7 +12,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="6dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/facebook"
+        android:src="@drawable/ic_volume_off_black_24dp"
         tools:ignore="ContentDescription,RtlHardcoded" />
 
     <TextView
